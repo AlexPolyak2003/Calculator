@@ -1,0 +1,50 @@
+@media only screen and (max-width:700px){
+    .calc{
+        width: 500px;
+        
+    }
+
+    
+    
+    
+    }
+
+
+
+    @media only screen and (max-width:600px){
+        .calc{
+            width: 400px;
+            
+        }
+    
+        
+        
+        
+        }
+
+
+        @media only screen and (max-width:500px){
+            .calc{
+                width: 300px;
+               
+               
+                
+            }
+        
+            
+            
+            
+            }
+
+
+            @media only screen and (max-width:400px){
+                .calc{
+                    width: 250px;
+                   
+                    
+                }
+            
+                
+                
+                
+                }
