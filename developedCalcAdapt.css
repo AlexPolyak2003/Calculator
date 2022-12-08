@@ -1,7 +1,7 @@
 
 
 
-            @media only screen and (max-width:250px){
+            @media only screen and (max-width:380px){
                 .calc{
                    max-width: 150px;
                    grid-auto-rows: 40px;
