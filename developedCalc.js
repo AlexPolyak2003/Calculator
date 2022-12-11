@@ -26,3 +26,30 @@ calc.addEventListener('click', function(event){
     }
 })
 
+
+ const out = document.querySelector('output')
+
+ document.addEventListener('keydown',function(e){
+  
+   let smth = e.key
+   switch(smth){
+     case 'Backspace':
+       out.innerText = ''
+       break
+
+
+      case 'Enter':
+      out.innerText = eval(result.innerText).toFixed(2)
+      break
+
+      
+   default:
+    result.innerText += e.key
+
+        
+  }
+
+
+
+
+ })
