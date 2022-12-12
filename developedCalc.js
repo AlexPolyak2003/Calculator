@@ -16,6 +16,17 @@ calc.addEventListener('click', function(event){
         case '=':
           result.innerText = eval(result.innerText).toFixed(2)
           break
+            
+            
+       case "CapsLock":
+        out.innerText = ''
+        break
+
+
+
+        case "Shift":
+        out.innerText = ''
+        break
     
 
 
